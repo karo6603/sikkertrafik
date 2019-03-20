@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'safetyregular';
+    src: url('fonts/safety-webfont.woff2') format('woff2'),
+        url('fonts/safety-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'safetydemibold';
+    src: url('fonts/safetydemibold-webfont.woff2') format('woff2'),
+        url('fonts/safetydemibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'safetylight';
+    src: url('fonts/safetylight-webfont.woff2') format('woff2'),
+        url('fonts/safetylight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,
+html {
+    margin: 0;
+}
+
+#logo {
+    background-image: url(files/logo.svg);
+    width: 180px;
+    height: 30px;
+    margin: 20px 0px 0px 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    background-color: #28292c;
+    padding: 0px 15px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 111;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 130px 0px 0px;
+}
+
+li {
+    margin: 27px 10px 21px;
+    font-family: 'safetydemibold';
+    color: #CCCCCC;
+    font-size: 14px;
+}
+
+li:first-child {
+    color: #FFFFFF;
+}
+
+#search {
+    color: #CCCCCC;
+    -webkit-text-stroke: 1px #28292c;
+}
+
+#burger {
+    width: 50px;
+    height: 50px;
+    display: none;
+    color: #CCCCCC;
+    margin: 20px 10px 0px 0px;
+    font-size: 25px;
+    -webkit-text-stroke: 2px #28292c;
+}
+
+#bottom {
+    background-color: #373d46;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px 20px 130px;
+    position: fixed;
+    width: 100%;
+    top: 63px;
+    transition: top 0.6s;
+}
+
+#kampagner {
+    color: #CCCCCC;
+    font-family: 'safetydemibold';
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+#fysiktrafik {
+    color: #FFFFFF;
+    font-family: 'safetydemibold';
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+#arrowone,
+#arrowtwo {
+    color: #CCCCCC;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    -webkit-text-stroke: 2.5px #373d46;
+}
+
+#splash {
+    background-color: pink;
+    width: 100%;
+    height: 500px;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #eaeaea;
+}
+
+.dark {
+    background-color: #414b5a;
+}
+
+#one {
+    width: 100%;
+    height: 500px;
+}
+
+#two {
+    width: 100%;
+    height: 500px;
+}
+
+#three {
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    ul {
+        display: none;
+    }
+
+    #logo {
+        margin: 20px 0px 0px 10px;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #bottom {
+        display: none;
+    }
+
+    #splash {
+        display: none;
+    }
+}

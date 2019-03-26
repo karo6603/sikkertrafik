@@ -1,3 +1,5 @@
+//NAV
+
 let prevScrollpos = window.pageYOffset;
 
 window.onscroll = function () {
@@ -10,6 +12,7 @@ window.onscroll = function () {
     prevScrollpos = currentScrollPos;
 }
 
+//TEST
 
 let cirkel = document.querySelector("#cirkel");
 let tid = document.querySelector("#tid");

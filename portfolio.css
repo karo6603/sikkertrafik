@@ -38,7 +38,7 @@ body {
     background-image: url(files/logo.svg);
     width: 180px;
     height: 30px;
-    margin: 10px 0px 0px 130px;
+    margin: -20px 0px 0px 130px;
     background-size: contain;
     background-repeat: no-repeat;
 }

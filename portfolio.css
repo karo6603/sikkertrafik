@@ -43,6 +43,10 @@ body {
     background-repeat: no-repeat;
 }
 
+#logo a {
+    margin: 0px;
+}
+
 nav {
     display: flex;
     flex-direction: row;

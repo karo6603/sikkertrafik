@@ -33,6 +33,7 @@ body,
 html {
     margin: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -326,9 +327,18 @@ iframe {
 /*************** BILLEDER ***********/
 #five {
     width: 100%;
-    height: 500px;
+    height: 700px;
+    padding: 70px;
 }
 
+#pic {
+    background-image: url(img/55489154_251910725598868_6301874134666182656_n.png);
+    width: 90vw;
+    height: 45vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /******** BALANCE ************/
 
@@ -499,6 +509,10 @@ footer a {
         padding: 30px 30px;
 
     }
+
+    #five {
+        height: 550px;
+    }
 }
 
 
@@ -563,6 +577,11 @@ footer a {
     #balance #text {
         margin-bottom: 40px;
     }
+
+    #five {
+        padding: 40px;
+        height: 450px;
+    }
 }
 
 
@@ -582,6 +601,10 @@ footer a {
 
     #six {
         height: 1870px;
+    }
+
+    #five {
+        height: 350px;
     }
 }
 
@@ -634,6 +657,11 @@ footer a {
     #balance p {
         padding: 30px 0px;
     }
+
+    #five {
+        padding: 20px;
+        height: 280px;
+    }
 }
 
 @media screen and (max-width: 537px) {
@@ -648,6 +676,10 @@ footer a {
 
     #four {
         height: 1250px;
+    }
+
+    #five {
+        height: 230px;
     }
 }
 
@@ -709,5 +741,9 @@ footer a {
 
     footer {
         padding: 20px;
+    }
+
+    #five {
+        height: 200px;
     }
 }
